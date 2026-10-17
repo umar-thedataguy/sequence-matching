@@ -107,5 +107,5 @@ All are machine-readable and committed, although `results/` is otherwise ignored
 | Training and analysis libraries | NumPy 2.5.1, SciPy 1.18.1, scikit-learn 1.9.0 (all BSD-3-Clause); never part of the image |
 | Training compute | One laptop CPU (12 threads), minutes per training run; no GPU |
 | Starter kit and data | Organisers' terms: [LICENSE](LICENSE), [DATA_LICENSE.md](DATA_LICENSE.md) |
-| Coding tools | **To be completed by the team before submission** |
-| Licence for our own code | **To be chosen by the team before submission** |
+| Coding tools | Claude (Anthropic) for analysis review, report drafting and submission checks. All code and results were reviewed and run by the team. |
+| Licence for our own code | MIT, © 2026 ML_Wizards_IITM (`smp/`, `policy.py`, training and analysis scripts). The organisers' kit files and data remain under [LICENSE](LICENSE) and [DATA_LICENSE.md](DATA_LICENSE.md). |

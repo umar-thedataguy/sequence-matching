@@ -4,6 +4,13 @@
 
 This document describes the policy we ship and why each choice was made. The experiment IDs in brackets (A1, B25, …) refer to [EXPERIMENTS_BY_STAGE.md](EXPERIMENTS_BY_STAGE.md), which lists every experiment, including the options we rejected. All results come from the public synthetic simulator and say nothing about real people.
 
+## Results at a glance
+
+- **Valid in every episode:** 120/120 through the organisers' harness, about 0.2 s per call (limit 10 s).
+- **Better than greedy on every tie-breaker** (360 paired worlds, all significant): coverage +0.005, mutual acceptances +0.30 per 100, 8 fewer clarification units, first introduction 1.6 days sooner.
+- **Primary score (MSMI):** level with greedy within noise (+0.019 ± 0.052 per 100), and +0.017 ± 0.011 qualifying pairs per episode in luck-free expected value (significant).
+- **Close to the ceiling:** coverage 0.345 against a maximum possible 0.348.
+
 ## The policy in one picture
 
 ```
